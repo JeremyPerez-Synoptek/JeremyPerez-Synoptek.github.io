@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Portfolio | Jeremy Perez</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f6f8;
+      color: #222;
+    }
+    header {
+      background: #1a237e;
+      color: #fff;
+      padding: 40px 0 30px 0;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(26,35,126,0.1);
+    }
+    header h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.5em;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.2em;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+    }
+    nav {
+      background: #283593;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 18px;
+      font-size: 1em;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: #aab6fe;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,20,0.06);
+      padding: 40px 32px 32px 32px;
+    }
+    section {
+      margin-bottom: 36px;
+    }
+    section:last-child {
+      margin-bottom: 0;
+    }
+    h2 {
+      color: #1a237e;
+      margin-top: 0;
+      font-size: 1.6em;
+      border-bottom: 2px solid #e8eaf6;
+      padding-bottom: 8px;
+      margin-bottom: 18px;
+      font-weight: 600;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .work-history {
+      list-style: none;
+      padding-left: 0;
+    }
+    .work-history li {
+      margin-bottom: 18px;
+    }
+    .job-title {
+      font-weight: 600;
+      color: #283593;
+    }
+    .job-company {
+      font-style: italic;
+      color: #555;
+    }
+    .job-dates {
+      color: #888;
+      font-size: 0.96em;
+    }
+    @media (max-width: 650px) {
+      main {
+        padding: 26px 8px 16px 8px;
+      }
+      header h1 {
+        font-size: 2em;
+      }
+      h2 {
+        font-size: 1.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jeremy Perez</h1>
+    <p>IT Professional | Web Developer | Lifelong Learner</p>
+  </header>
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#work">Work History</a>
+    <a href="#hobbies">Hobbies & Interests</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a dedicated IT professional with a passion for web development, continuous learning, and technology-driven solutions. With a strong background in both technical and client-facing roles, I thrive on creating impactful digital experiences and collaborating with diverse teams. I value professionalism, integrity, and a growth mindset in every project I undertake.
+      </p>
+    </section>
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Bachelor of Science in Information Technology</strong><br>
+          <span class="job-company">[Your University Name]</span><br>
+          <span class="job-dates">Graduated: [Year]</span>
+        </li>
+        <li>
+          <strong>Professional Certifications</strong><br>
+          <span class="job-company">CompTIA, Microsoft, AWS (list as applicable)</span>
+        </li>
+      </ul>
+    </section>
+    <section id="work">
+      <h2>Work History</h2>
+      <ul class="work-history">
+        <li>
+          <span class="job-title">IT Systems Analyst</span>, <span class="job-company">Synoptek</span><br>
+          <span class="job-dates">[Start Year] – Present</span><br>
+          <ul>
+            <li>Provide support and solutions for a wide range of IT infrastructure and cloud projects.</li>
+            <li>Collaborate with cross-functional teams to improve operational efficiency and security.</li>
+          </ul>
+        </li>
+        <li>
+          <span class="job-title">Web Developer (Freelance)</span>, <span class="job-company">Self-Employed</span><br>
+          <span class="job-dates">[Start Year] – [End Year]</span><br>
+          <ul>
+            <li>Designed and deployed custom websites for small businesses and non-profits.</li>
+            <li>Specialized in responsive, accessible, and maintainable web solutions.</li>
+          </ul>
+        </li>
+        <!-- Add more roles as needed -->
+      </ul>
+    </section>
+    <section id="hobbies">
+      <h2>Hobbies & Interests</h2>
+      <ul>
+        <li>Continuous learning in technology, cybersecurity, and software development</li>
+        <li>Open-source contributions and online community engagement</li>
+        <li>Outdoor activities: hiking, cycling, and photography</li>
+        <li>Music appreciation and creative arts</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
