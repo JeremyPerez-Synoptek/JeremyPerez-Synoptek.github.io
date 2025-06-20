@@ -5,19 +5,27 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Portfolio | Jeremy Perez</title>
   <style>
+    :root {
+      /* Earth tone palette */
+      --primary: #6b4f27;      /* Earthy brown */
+      --secondary: #a68a64;    /* Warm sand */
+      --accent: #3b684b;       /* Forest green */
+      --background: #f5f1e7;   /* Light parchment */
+      --text: #232018;
+    }
     body {
       font-family: 'Segoe UI', Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f6f8;
-      color: #222;
+      background: var(--background);
+      color: var(--text);
     }
     header {
-      background: #1a237e;
+      background: var(--primary);
       color: #fff;
       padding: 40px 0 30px 0;
       text-align: center;
-      box-shadow: 0 2px 8px rgba(26,35,126,0.1);
+      box-shadow: 0 2px 8px rgba(107,79,39,0.08);
     }
     header h1 {
       margin: 0 0 10px 0;
@@ -32,26 +40,27 @@
       letter-spacing: 0.5px;
     }
     nav {
-      background: #283593;
+      background: var(--secondary);
       text-align: center;
       padding: 10px 0;
     }
     nav a {
-      color: #fff;
+      color: var(--primary);
       text-decoration: none;
       margin: 0 18px;
       font-size: 1em;
+      font-weight: 500;
       transition: color 0.2s;
     }
     nav a:hover {
-      color: #aab6fe;
+      color: var(--accent);
     }
     main {
       max-width: 900px;
       margin: 40px auto;
       background: #fff;
       border-radius: 12px;
-      box-shadow: 0 2px 12px rgba(0,0,20,0.06);
+      box-shadow: 0 2px 12px rgba(59,104,75,0.06);
       padding: 40px 32px 32px 32px;
     }
     section {
@@ -61,10 +70,10 @@
       margin-bottom: 0;
     }
     h2 {
-      color: #1a237e;
+      color: var(--accent);
       margin-top: 0;
       font-size: 1.6em;
-      border-bottom: 2px solid #e8eaf6;
+      border-bottom: 2px solid var(--secondary);
       padding-bottom: 8px;
       margin-bottom: 18px;
       font-weight: 600;
@@ -81,14 +90,14 @@
     }
     .job-title {
       font-weight: 600;
-      color: #283593;
+      color: var(--primary);
     }
     .job-company {
       font-style: italic;
-      color: #555;
+      color: var(--accent);
     }
     .job-dates {
-      color: #888;
+      color: #7a6b4a;
       font-size: 0.96em;
     }
     @media (max-width: 650px) {
@@ -107,7 +116,7 @@
 <body>
   <header>
     <h1>Jeremy Perez</h1>
-    <p>IT Professional | IT Leader | Lifelong Learner</p>
+    <p>IT Professional | Web Developer | Lifelong Learner</p>
   </header>
   <nav>
     <a href="#about">About Me</a>
